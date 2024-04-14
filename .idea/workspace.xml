@@ -5,8 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f523ddcd-6d7f-4b70-b865-4782fa54b3ad" name="Changes" comment="Classi Astrali">
-      <change afterPath="$PROJECT_DIR$/src/PanzerSelbstfahrlafetteIfür.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Cat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Cat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ClasseAstratta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ClasseAstratta.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Dog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Dog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GatoESPECIAL.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GatoESPECIAL.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PanzerSelbstfahrlafetteIfür.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PanzerSelbstfahrlafetteIfür.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,9 +27,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 4
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
   <component name="ProjectId" id="2eoAE9ouLNqVBKIe7lVXDC0966x" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -34,10 +38,12 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.ClasseAstratta.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/AlePC/OneDrive - ryleee/Documenti/Scuola/Itis/abstractclasses",
     "onboarding.tips.debug.path": "C:/Users/pala.alessandro/IntelliJTPSIT/ClassiAstratte/src/Main.java"
   }
 }]]></component>
@@ -45,6 +51,13 @@
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="" />
     </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-21.0.2-corretto-21.0.2-4caba194b151-51586f01" />
+      </set>
+    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
