@@ -1,22 +1,38 @@
 public class ClasseAstratta {
     public static void main(String[] args) {
-        for (int i = 1; i<=4; i++) {
-            if (i==1) {
-                Dog cane = new Dog();
-                cane.makeNoise();
-            }
-            if (i==2) {
-                Cat gatto = new Cat();
-                gatto.makeNoise();
-            }
-            if (i==3) {
-                GatoESPECIAL gato = new GatoESPECIAL();
-                gato.makeNoise();
-            }
-            if (i==4) {
-                PanzerSelbstfahrlafetteIfür panzer = new PanzerSelbstfahrlafetteIfür();
-                panzer.makeNoise();
-            }
-        }
+        System.out.println("Hello and welcome to the example for abstract classes!");
+        System.out.println("\nI versi degli animali:");
+        Cat Gatto = new Cat();
+        Gatto.makeNoise();
+        Dog Cane = new Dog();
+        Cane.makeNoise();
+        GatoESPECIAL gatoesp = new GatoESPECIAL();
+        gatoesp.makeNoise();
+        PanzerSelbstfahrlafetteIfür Panzer = new PanzerSelbstfahrlafetteIfür();
+        Panzer.makeNoise();
+
+        System.out.println("\nI movimenti degli animali:");
+
+        Gatto.Movement();
+        Cane.Movement();
+        gatoesp.Movement();
+        Panzer.Movement();
+
+        System.out.println("\nI colori degli animali:");
+
+        Gatto.Color();
+        Cane.Color();
+        gatoesp.Color();
+        Panzer.Color();
+
+        Gatto.age = 8;
+        Cane.age = 3;
+        gatoesp.age = 17;
+        Panzer.age = 234;
+
+        Gatto.name = "Cecio";
+        Cane.name = "Kira";
+        gatoesp.name = "EL GATITO";
+        Panzer.name = "PanzerSelbstfahrlafetteIfür";
     }
 }
